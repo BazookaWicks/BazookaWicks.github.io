@@ -1,0 +1,41 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0a0a0a;
+  color: #00ff99;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+.hero-image {
+  width: 100%;
+  height: auto;
+  border: 2px solid #00ff99;
+  border-radius: 12px;
+}
+.content h1 {
+  font-size: 2em;
+  margin: 20px 0 10px;
+}
+.content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+.buttons a {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 18px;
+  color: #0a0a0a;
+  background-color: #00ff99;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.buttons a:hover {
+  background-color: #00cc77;
+}
